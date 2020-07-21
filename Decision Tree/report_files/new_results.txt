@@ -1,0 +1,103 @@
+
+Using dataset data/clean_dataset.txt
+Pre prune metrics: 
+
+data/clean_dataset.txt has average pre prune depth 8
+[[494.   0.   2.   5.]
+ [  0. 476.  16.   0.]
+ [  4.  24. 481.   2.]
+ [  2.   0.   1. 493.]]
+Error rate is: 0.028000000000000025
+Classification rate is: 0.972
+Recall rate for Room 1 : 0.9860279441117764
+Precision rate for Room 1 : 0.988
+F1 rate for Room 1 : 0.987012987012987
+Recall rate for Room 2 : 0.967479674796748
+Precision rate for Room 2 : 0.952
+F1 rate for Room 2 : 0.9596774193548387
+Recall rate for Room 3 : 0.9412915851272016
+Precision rate for Room 3 : 0.962
+F1 rate for Room 3 : 0.9515331355093966
+Recall rate for Room 4 : 0.9939516129032258
+Precision rate for Room 4 : 0.986
+F1 rate for Room 4 : 0.9899598393574297
+Average recall rate: 0.972187704234738
+Average precision rate: 0.972
+Average F1 rate: 0.972045845308663
+Post prune metrics:
+
+data/clean_dataset.txt has average post prune depth 8
+[[495.   0.   2.   5.]
+ [  0. 477.  20.   0.]
+ [  5.  23. 477.   2.]
+ [  0.   0.   1. 493.]]
+Error rate is: 0.029000000000000026
+Classification rate is: 0.971
+Recall rate for Room 1 : 0.9860557768924303
+Precision rate for Room 1 : 0.99
+F1 rate for Room 1 : 0.9880239520958083
+Recall rate for Room 2 : 0.959758551307847
+Precision rate for Room 2 : 0.954
+F1 rate for Room 2 : 0.9568706118355065
+Recall rate for Room 3 : 0.9408284023668639
+Precision rate for Room 3 : 0.954
+F1 rate for Room 3 : 0.9473684210526316
+Recall rate for Room 4 : 0.9979757085020243
+Precision rate for Room 4 : 0.986
+F1 rate for Room 4 : 0.9919517102615695
+Average recall rate: 0.9711546097672914
+Average precision rate: 0.9709999999999999
+Average F1 rate: 0.971053673811379
+
+##################################################
+Using dataset data/noisy_dataset.txt
+Pre prune metrics: 
+
+data/noisy_dataset.txt has average pre prune depth 16
+[[387.  33.  28.  35.]
+ [ 37. 400.  39.  21.]
+ [ 32.  35. 415.  38.]
+ [ 34.  29.  33. 404.]]
+Error rate is: 0.19699999999999995
+Classification rate is: 0.803
+Recall rate for Room 1 : 0.8012422360248447
+Precision rate for Room 1 : 0.789795918367347
+F1 rate for Room 1 : 0.7954779033915725
+Recall rate for Room 2 : 0.8048289738430584
+Precision rate for Room 2 : 0.8048289738430584
+F1 rate for Room 2 : 0.8048289738430584
+Recall rate for Room 3 : 0.7980769230769231
+Precision rate for Room 3 : 0.8058252427184466
+F1 rate for Room 3 : 0.8019323671497586
+Recall rate for Room 4 : 0.808
+Precision rate for Room 4 : 0.8112449799196787
+F1 rate for Room 4 : 0.8096192384769538
+Average recall rate: 0.8030370332362065
+Average precision rate: 0.8029237787121326
+Average F1 rate: 0.8029646207153358
+Post prune metrics:
+
+data/noisy_dataset.txt has average post prune depth 13
+[[426.  29.  26.  25.]
+ [ 16. 413.  39.  18.]
+ [ 25.  36. 426.  23.]
+ [ 23.  19.  24. 432.]]
+Error rate is: 0.15149999999999997
+Classification rate is: 0.8485
+Recall rate for Room 1 : 0.841897233201581
+Precision rate for Room 1 : 0.8693877551020408
+F1 rate for Room 1 : 0.855421686746988
+Recall rate for Room 2 : 0.8497942386831275
+Precision rate for Room 2 : 0.8309859154929577
+F1 rate for Room 2 : 0.8402848423194305
+Recall rate for Room 3 : 0.8352941176470589
+Precision rate for Room 3 : 0.8271844660194175
+F1 rate for Room 3 : 0.8312195121951219
+Recall rate for Room 4 : 0.8674698795180723
+Precision rate for Room 4 : 0.8674698795180723
+F1 rate for Room 4 : 0.8674698795180723
+Average recall rate: 0.84861386726246
+Average precision rate: 0.8487570040331222
+Average F1 rate: 0.8485989801949032
+
+##################################################
